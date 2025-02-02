@@ -2,9 +2,10 @@
 #include <string.h>
 #include "pico/stdlib.h"
 
-#define LED_RED_PIN 11
+#define LED_RED_PIN 13
 #define LED_YELLOW_PIN 12
-#define LED_GREEN_PIN 13
+#define LED_GREEN_PIN 11
+
 #define INTERVAL_MS 3000
 
 static volatile uint8_t counter = 0;
